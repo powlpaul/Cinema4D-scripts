@@ -16,11 +16,11 @@ def main():
     
     # Change name of all takes in the list
     for s in TakeSelection:
-        #Check if already renamed
-        if s.GetUp().GetName() in s.GetName():
-            return
         TakeName = s.GetName()
         TakeParentName = s.GetUp().GetName()
+        #Check if already renamed
+        if TakeParentName in TakeName:
+            return
         TakeNewName = TakeName+'_'+TakeParentName
         s.SetName(TakeNewName)
     
