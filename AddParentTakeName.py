@@ -1,3 +1,5 @@
+# Appends respective parent take name to each take name seperated with a _ 
+
 import c4d
 from c4d import gui
     
