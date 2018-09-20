@@ -1,4 +1,4 @@
-# Appends respective parent take name to each take name seperated with a _ 
+# Appends take names from take selection to each child take name seperated with a _ 
 
 import c4d
 from c4d import gui
